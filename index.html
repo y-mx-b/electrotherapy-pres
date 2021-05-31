@@ -4,11 +4,13 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>전기 요법 발표</title>
+		<meta name="author" content="나하랑">
+		<meta name="description" content="전기 요법에대한 발표">
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/theme/white.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -16,8 +18,105 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<!-- Title -->
+				<section>
+					<h1>전기 요법</h1>
+					<h3>나하랑</h3>
+				</section>
+				<!-- Introduction -->
+				<section>
+					<section data-auto-animate>
+						<h2>전기 요법은 두가지가 있습니다:</h2>
+					</section>
+					<section data-auto-animate data-transition-speed="fast">
+						<h2>전기 요법은 두가지가 있습니다:</h2>
+						<p>Cranial Electrotherapy Stimulation (CES)</p>
+					</section> 
+					<section data-auto-animate data-transition-speed="fast">
+						<h2>전기 요법은 두가지가 있습니다:</h2>
+						<p>Cranial Electrotherapy Stimulation (CES)</p>
+						<p>또는</p>
+						<p>Electroconvulsive Therapy (ECT)</p>
+					</section>
+				</section>
+				<!-- History/Background Information -->
+				<section>
+					<h1>배경</h1>
+				</section>
+				<section>
+					<section>
+						<h2>발산국</h2>
+					</section>
+					<section data-auto-animate>
+						<h2>러시아와 동유럽에서 발명</h2>
+					</section>
+					<!-- Origins -->
+					<section data-auto-animate>
+						<h2>러시아와 동유럽에서 발명</h2>
+						<ul>
+							<li>'전기 수면' (Electrosleep Treatment)</li>
+							<li>1970년때 FDA가 CES드로 이름 저장</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<!-- Usage -->
+					<section>
+						<h2>사용</h2>
+					</section>
+					<section data-auto-animate>
+						<h2>어떤 원리로 작용되나요?</h2>
+					</section>
+					<section data-auto-animate>
+						<h2>어떤 원리로 작용되나요?</h2>
+						<h3>뇌 안에서...</h3>
+					</section>
+					<section data-auto-animate>
+						<h2>어떤 원리로 작용되나요?</h2>
+						<h3>뇌 안에서...</h3>
+						<ul>
+							<li>세로토닌, 베타엔도르핀: 증가</li>
+							<li>트림토판과 코티솔: 감소</li>
+						</ul>
+					</section>
+					<section data-auto-animate>
+						<h2>어떤 원리로 작용되나요?</h2>
+						<h3>뇌 안에서...</h3>
+						<ul>
+							<li>세로토닌, 베타엔도르핀: 증가</li>
+							<li>트림토판과 코티솔: 감소</li>
+							<ul>
+								<li>임상실험: 엔도르핀, 세로토닌 양 극각적 증가</li>
+								<li>20분만해도 증정적인 효과</li>
+							</ul>
+					</section>
+					<section data-auto-animate>
+						<h2>어떤 원리로 작용되나요?</h2>
+						<h3>뇌 안에서...</h3>
+						<ul>
+							<li>세로토닌, 베타엔도르핀: 증가</li>
+							<li>트림토판과 코티솔: 감소</li>
+							<ul>
+								<li>임상실험: 엔도르핀, 세로토닌 양 극각적 증가</li>
+								<li>20분만해도 증정적인 효과</li>
+							</ul>
+							<li>뇌에 알파리듬 증가 (행복함, 표화로움)</li>
+						</ul>
+					</section>
+					<section data-auto-animate>
+						<h2>어떤 원리로 작용되나요?</h2>
+						<h3>뇌 안에서...</h3>
+						<ul>
+							<li>세로토닌, 베타엔도르핀: 증가</li>
+							<li>트림토판과 코티솔: 감소</li>
+							<ul>
+								<li>임상실험: 엔도르핀, 세로토닌 양 극각적 증가</li>
+								<li>20분만해도 증정적인 효과</li>
+							</ul>
+							<li>뇌에 알파리듬 증가 (행복함, 표화로움)</li>
+						</ul>
+					</section>
+				</section>
 			</div>
 		</div>
 
@@ -31,6 +130,8 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+				controls: false,
+				progress: false,
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
